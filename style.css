@@ -1,0 +1,49 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #ffcc00, #56b0ec);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+h2, h3, h4 {
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Ea {
+    size: 100px;
+}
+
+#logo {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
